@@ -551,7 +551,7 @@ df.loc[drib_all_nan, "dribbling_onball_score"] = np.nan
 # big csv with all metrics
 full_out = "liverpool_shot_metrics.csv"
 df.to_csv(full_out, index=False)
-print(f"✅ Vollständige Metrik-Datei gespeichert in: {full_out}")
+print(f"Metrik-Datei gespeichert in: {full_out}")
 
 
 # radar CSV with categories + percentiles
